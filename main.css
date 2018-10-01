@@ -19,3 +19,41 @@ h1 {
     -webkit-animation: slide-tr 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-tr 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+
+h3 {
+    font-size: 1.5em;
+
+}
+h3:before, h3:after {
+    content: " ";
+    position: absolute;
+    border-top: 5px solid rgba(0, 0, 0, .3)
+}
+h3:nth-of-type(1):before {
+    width: 3%;
+    height: 4px;
+    margin: 3% 0 0 -4%;
+}
+
+h3:nth-of-type(1):after {
+    width: 35%;
+    height: 4px;
+    margin: 3% 0 0 2%;
+}
+h3:nth-of-type(2) {
+    float: right;
+    margin-top: -5%;
+}
+
+h3:nth-of-type(2):before {
+    width: 150%;
+    height: 4px;
+    margin: 9% 0 0 -155%;
+}
+
+h3:nth-of-type(2):after {
+    width: 10%;
+    height: 4px;
+    margin: 6% 0 0 3%;
+}
