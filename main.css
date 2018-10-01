@@ -120,5 +120,19 @@ h1, h3 {
       transform: translateY(0) translateX(0) matrix(1.00,-0.25,0.00,1.00,0,0);
     }
   }
+
+  footer {
+    padding: 15px;
+    text-align: center;
+    position: absolute;
+    
+}
+footer a {
+  text-decoration: none;
+}
+footer p {
+    font-size: 1.5em;
+}
+
   
   
